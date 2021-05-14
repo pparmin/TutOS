@@ -47,13 +47,12 @@ printirm:
         jmp main            ; jump back to our label
     end:
         ret ; return
-
+        
 FirstName:
-    db 'Kenix', 10, 10, 10, 13, 0        ; 10 = \n new line; 13 = cursor to leftmost; 0 for null termination
+    db '1 Kenix', 10, 13, '2', 10, 13, '3', 10, 13, 0        ; 10 = \n new line; 13 = cursor to leftmost; 0 for null termination
 
 LastName:
-    db 'Kil', 10, 13, 0
-
+    db '4 Kil', 10, 13, 0
 ; fill in the bytes with zeros
 times 510-($-$$) db 0   ; db = define byte | creates a loop that that fills all bytes with 0
 
