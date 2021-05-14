@@ -49,7 +49,7 @@ printirm:
         ret ; return
 
 FirstName:
-    db 'Kenix', 10, 10, 10, 10, 13, 0        ; 10 = \n new line; 13 = cursor to leftmost; 0 for null termination
+    db 'Kenix', 10, 10, 10, 13, 0        ; 10 = \n new line; 13 = cursor to leftmost; 0 for null termination
 
 LastName:
     db 'Kil', 10, 13, 0
