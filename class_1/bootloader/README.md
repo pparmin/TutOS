@@ -1,1 +1,1 @@
-![screenshot of bootloader](https://github.com/[pparmin]/[TutOS]/blob/[master]/screenshot.png?raw=true)
+![screenshot of bootloader](https://raw.githubusercontent.com/pparmin/TutOS/master/class_1/bootloader/screenshot.png)
